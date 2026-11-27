@@ -1,0 +1,11 @@
+# Amap
+-keep class com.amap.api.** { *; }
+-keep class com.autonavi.** { *; }
+-keep class com.loc.** { *; }
+-dontwarn com.amap.api.**
+-dontwarn com.autonavi.**
+-dontwarn com.loc.**
+-keep class com.amap.ams.** { *; }
+-dontwarn com.amap.ams.**
+-keep class com.amap.location.** { *; }
+-dontwarn com.amap.location.**
