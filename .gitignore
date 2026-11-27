@@ -1,0 +1,20 @@
+# Build outputs
+build/
+.gradle/
+.kotlin/
+captures/
+*.apk
+*.aab
+# Local / IDE
+local.properties
+.idea/
+*.iml
+.DS_Store
+# Secrets (never commit)
+*.jks
+*.keystore
+*.pass
+*.key
+amap.key
+keystore.properties
+secrets.properties
